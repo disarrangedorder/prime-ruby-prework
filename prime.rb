@@ -1,7 +1,9 @@
 # Add  code here!
 
 def prime?(int)
-  return false if int < 2
+  if int < 2
+    return false 
+  end
   (2...int).each do |num|
 
     if (int % num) == 0

@@ -14,10 +14,6 @@ def prime?(int)
   end
 
 
-
-
-
-
 =begin
 def prime?(int)
 

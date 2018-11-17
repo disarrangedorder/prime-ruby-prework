@@ -2,12 +2,11 @@
 
 def prime?(int)
   return false if int < 2
-    
+
 
 [2...int].each do |num|
-  if (int % num) == 0
-    return false
-  end
+  return false if (int % num) == 0
+  
 end
 
 return true

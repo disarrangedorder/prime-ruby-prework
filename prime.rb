@@ -12,7 +12,7 @@ end
 
 
 
- 
+
 
 =begin
 def prime?(int)

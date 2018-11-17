@@ -6,10 +6,8 @@ def prime?(int)
 
 [2...int].each do |num|
   return false if (int % num) == 0
-
-
-
-return true
+  else return true
+  end
 
 end
 

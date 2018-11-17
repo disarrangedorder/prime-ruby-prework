@@ -2,9 +2,9 @@
 
 def prime?(int)
   return false if int < 2
-  (2..int).each do |num|
+  (2...int).each do |num|
     return false if (int % num) == 0
-  else return true
+    return true
   end
 
 end
